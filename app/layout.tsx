@@ -16,6 +16,19 @@ export const metadata: Metadata = {
   title: "CCC 씨앗 순장 AI - 당신의 AI 순장",
   description:
     "순모임이 고민될 때, 신앙이 흔들릴 때, 삶이 복잡할 때 언제든 편하게 찾아올 수 있는 AI 순장 서비스",
+  openGraph: {
+    title: "CCC 씨앗 순장 AI - 당신의 AI 순장",
+    description:
+      "순모임이 고민될 때, 신앙이 흔들릴 때, 삶이 복잡할 때 언제든 편하게 찾아올 수 있는 AI 순장 서비스",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "씨앗 순장" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CCC 씨앗 순장 AI - 당신의 AI 순장",
+    description:
+      "순모임이 고민될 때, 신앙이 흔들릴 때, 삶이 복잡할 때 언제든 편하게 찾아올 수 있는 AI 순장 서비스",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
